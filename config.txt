@@ -1,0 +1,17 @@
+REM пример конфигурации
+
+(def port 8080);
+(def host 'localhost');
+
+--[[
+многострочный
+комментарий
+]]
+(def server struct {
+    name = 'main',
+    address = struct {
+        host = .(host).,
+        port = .(port).
+    },
+    enabled = 1,
+});
